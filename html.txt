@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>░░My Portfolio░░</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                 </ul>
+            </div>
+        </nav>
+    </header>
+<body>
+  <header>
+    <section id="about">
+    <div class="intro">
+      <img src="profile_picture.jpg" alt="Profile Picture">
+      <h1>Hello, I'm Sai Charan</h1>
+      <p>Motivated and ambitious B.Tech graduate with a strong academic background and a passion for
+ software industry. Possessing excellent problem-solving skills, a strong work ethic, and a desire to
+ contribute to the success of an organization. Eager to leverage theoretical knowledge gained through
+ coursework and internships to make a meaningful impact in the salesforce developer position</p>
+    </div>
+    </section>
+  </header>
+  
+    <div>
+    <section id="portfolio">
+    <h2>1.Education:-</h2>
+   
+    <h4>(a).High School-</h4>
+    <li>Kendriya Vidyalaya Warangal.</li>
+    <li>percentage:78%</li>
+    
+    <h4>(b).Intermediate-</h4>
+    <li>Sr Junior College</li>
+    <li>Percentage:83%</li>
+    
+    <h4>(c).Graduation-</h4>
+    <li>Sr Engineering College.</li>
+    <li>Course:B.Tech</li>
+    <li>Stream: E.C.E</li>
+    <li>Precentage: 61%</li>
+   
+  </div>
+  <div>
+      <h2>2.Skills:-</h2>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>salesforce developer</li>
+      <li>salesforce Admin</li>
+      <li>Lightning web Component</li>
+      <li>Python</li>
+  </div>
+  <div>
+    <h2>3.Work Experience:-</h2>
+      <h4>(a).Salesforce internship-</h4>
+      <li>From:07/2022  To:09/2022</li>  
+      <li>Salesforce Fundamentals.</li> 
+      <li>Relationship & Process Automation.</li> 
+      <li>Apex, Testing & Debugging.</li> 
+      <li>Lightning Web Components (LWC) & API</li>
+      <li>Profile:https://trailblazer.me/id/isaicharan</li>
+    
+    <h4>(b).Achivements-</h4>
+      <li>Silver League (Profile):</li>
+          <li>Google Cloud, 
+          From:05/2022 To:07/2023</li> 
+          <li>Google Cloud developer profile</li>
+          <li>Tasks Completed:</li> 
+          <li>Analyse Big Query Data.</li>
+          <li>Deploy to Kubernetes in Google Cloud.</li> 
+          <li>Create and Manage Cloud Resources.</li>
+  </div>
+  <div>
+    <h2>4.Languages:-</h2>
+    <li>English</li>
+    <li>Hindi</li>
+    <li>Telugu</li>
+  </div>
+  <div>
+    <h2>5.Intrest:-</h2>
+    <li>Gaining Knowledge</li>
+    <li>Watching Movies</li>
+    <li>Listening Songs</li>
+  </div>
+</section>  
+    
+    <div>
+    <footer>
+    <a href="resume.pdf" download>Download Resume</a>
+    </footer>
+    </div>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+  <div>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 mandalasaicharan31@gmail.com  (All Rights Received)</p>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
+
